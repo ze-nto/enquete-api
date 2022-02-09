@@ -50,7 +50,7 @@ describe('SignUp', () => {
       body: {
         name: 'any_name',
         email: 'any_email',
-        password: 'any_password'
+        passwordConfimation: 'any_password'
       }
     }
     const httpResponse = sut.handle(httpRequest)
